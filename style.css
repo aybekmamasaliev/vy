@@ -1,0 +1,290 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.bebas {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.open_sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div {
+    line-height: 1;
+}
+
+h1 {
+    font-size: 135px;
+    margin-block-end: 0 !important;
+
+}
+
+.text_green {
+    color: #005445;
+}
+
+.bg_dark_green {
+    background-color: #00594d;
+}
+
+.text_white {
+    color: #ffffff;
+}
+
+.bg_black {
+    background-color: #000000;
+}
+
+.fs_14 {
+    font-size: 14px;
+}
+
+.fs_16 {
+    font-size: 16px;
+}
+
+.fs_18{
+    font-size: 18px;
+}
+
+.fs_20{
+    font-size: 20px;
+}
+
+.fs_24 {
+    font-size: 24px;
+}
+
+.fs_30 {
+    font-size: 30px;
+}
+
+.fs_35{
+    font-size: 35px;
+}
+
+.fs_40{
+    font-size: 40px;
+}
+
+.fs_50 {
+    font-size: 50px;
+}
+
+.fs_60 {
+    font-size: 60px;
+}
+
+.fs_70 {
+    font-size: 70px;
+}
+
+.fs_100{
+    font-size: 100px;
+}
+
+.fw_600{
+    font-weight: 600;
+}
+
+.btn_yellow {
+    background-color: #ffc82c;
+    font-size: 30px;
+    color: #005445;
+    border-radius: 100px;
+    padding: 14px 36px;
+}
+
+.btn_dark_green {
+    background-color: #00594d;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 12px 41px;
+    border-radius: 32px;
+    border: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.line_h_15 {
+    line-height: 1.3;
+}
+
+.ps_rel {
+    position: relative
+}
+
+.meal-group {
+    max-width: 1113px;
+}
+
+.banner-imgs {
+    position: absolute;
+    top: -210px
+}
+
+.box-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    color: #005445;
+    text-align: center;
+}
+
+.products-group {
+    max-width: 821px;
+}
+
+.banner-bottom {
+    height: 580px;
+}
+
+.banner-top {
+    padding-bottom: 246px
+}
+
+.box-item-img {
+    width: 150px;
+    height: 150px;
+    padding: 25px 22px 0px 22px;
+}
+
+.box-item-info {
+    width: calc(100% - 150px);
+    display: flex;
+    gap: 1rem;
+    padding: 45px 64px 45px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-total {
+    background-color: #00362C;
+    padding: 50px 64px 50px 30px;
+    color: #ffffff;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.box-valued {
+    background-color: #4B4B4B;
+    padding: 50px 64px 50px 30px;
+    color: #ffffff;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.box-savings {
+    background-color: #FFD200;
+    padding: 50px 64px 50px 30px;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.text_danger {
+    color: #FF0000;
+}
+
+.bg-img-odd {
+    background-color: #005445;
+}
+
+.bg-img-even {
+    background-color: #00362C;
+}
+
+.bg-info-odd {
+    background-color: #CFDFDD;
+}
+
+.bg-info-even {
+    background-color: #E6E6E6;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.potential-title{
+    font-size: 100px;
+    color: #005445;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+.potential-card-title{
+    color: #272727;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+.potential-card-desc{
+    color: #272727;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.potential-img{
+    width: 80px;
+    height: 80px;
+}
+
+.powder{
+    background-color: #00362C;
+    padding: 68px 0 0 0;
+}
+
+.powder2{
+    background-color: #005445;
+    padding: 68px 0 0 0;
+}
+
+.powder3{
+    background-color: #230904;
+    padding: 0;
+}
+
+.powder-info{
+    width: 40%;
+}
+
+.powder-img{
+    width: calc(60% - 2rem);
+}
+
+.powder-img2{
+    width: calc(60% - 6rem);
+}
+
+.services{
+    padding: 88px 0;
+    background-color: #F5F5F5;
+}
+
+.bus{
+    width: 80px;
+    height: 80px;
+}
+
+.row{
+    margin-block: 0 !important;
+}
+
+.footer{
+    background-image: url("./media/footer-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    height: 130vh;
+}
