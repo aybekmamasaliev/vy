@@ -17,9 +17,8 @@ div {
 }
 
 h1 {
-    font-size: 135px;
     margin-block-end: 0 !important;
-
+    font-size: calc(50px + (135 - 50) * ((100vw - 350px) / (1600 - 350)));
 }
 
 .text_green {
@@ -55,15 +54,15 @@ h1 {
 }
 
 .fs_24 {
-    font-size: 24px;
+    font-size: calc(20px + (24 - 20) * ((100vw - 350px) / (1600 - 350)));
 }
 
 .fs_30 {
-    font-size: 30px;
+    font-size: calc(22px + (30 - 22) * ((100vw - 350px) / (1600 - 350)));
 }
 
 .fs_35{
-    font-size: 35px;
+    font-size: calc(22px + (35 - 22) * ((100vw - 350px) / (1600 - 350)));
 }
 
 .fs_40{
@@ -71,20 +70,22 @@ h1 {
 }
 
 .fs_50 {
-    font-size: 50px;
+    font-size: calc(30px + (50 - 30) * ((100vw - 350px) / (1600 - 350)));
 }
 
 .fs_60 {
-    font-size: 60px;
+    font-size: calc(40px + (60 - 40) * ((100vw - 350px) / (1600 - 350)));
 }
 
 .fs_70 {
-    font-size: 70px;
+    font-size: calc(30px + (70 - 30) * ((100vw - 350px) / (1600 - 350)));
 }
 
 .fs_100{
-    font-size: 100px;
+    font-size: calc(40px + (100 - 40) * ((100vw - 350px) / (1600 - 350)));
 }
+
+
 
 .fw_600{
     font-weight: 600;
@@ -120,14 +121,17 @@ h1 {
     max-width: 1113px;
 }
 
+
 .banner-imgs {
     position: absolute;
     top: -210px
 }
 
+
+
 .box-title {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 100px;
+    font-size: calc(50px + (100 - 50) * ((100vw - 350px) / (1600 - 350)));
     color: #005445;
     text-align: center;
 }
@@ -137,7 +141,7 @@ h1 {
 }
 
 .banner-bottom {
-    height: 580px;
+    height: calc(380px + (580 - 380) * ((100vw - 350px) / (1600 - 350)));
 }
 
 .banner-top {
@@ -145,16 +149,16 @@ h1 {
 }
 
 .box-item-img {
-    width: 150px;
-    height: 150px;
+    width: calc(100px + (150 - 100) * ((100vw - 350px) / (1600 - 350)));
+    height: calc(100px + (150 - 100) * ((100vw - 350px) / (1600 - 350)));
     padding: 25px 22px 0px 22px;
 }
 
 .box-item-info {
-    width: calc(100% - 150px);
+    width: calc(100% - calc(100px + (150 - 100) * ((100vw - 350px) / (1600 - 350))));
     display: flex;
     gap: 1rem;
-    padding: 45px 64px 45px 40px;
+    padding-inline: 1rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -163,7 +167,6 @@ h1 {
     background-color: #00362C;
     padding: 50px 64px 50px 30px;
     color: #ffffff;
-    font-size: 50px;
     display: flex;
     justify-content: space-between;
     font-family: 'Bebas Neue', sans-serif;
@@ -173,7 +176,6 @@ h1 {
     background-color: #4B4B4B;
     padding: 50px 64px 50px 30px;
     color: #ffffff;
-    font-size: 50px;
     display: flex;
     justify-content: space-between;
     font-family: 'Bebas Neue', sans-serif;
@@ -182,7 +184,6 @@ h1 {
 .box-savings {
     background-color: #FFD200;
     padding: 50px 64px 50px 30px;
-    font-size: 50px;
     display: flex;
     justify-content: space-between;
     font-family: 'Bebas Neue', sans-serif;
@@ -213,7 +214,6 @@ h1 {
 }
 
 .potential-title{
-    font-size: 100px;
     color: #005445;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
@@ -287,4 +287,58 @@ h1 {
     background-repeat: no-repeat;
     padding: 100px 0;
     height: 130vh;
+    background-position: center;
+}
+
+.faq-answer {
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 576px) {
+    .banner-top {
+        padding-bottom: 146px
+    }
+
+    .banner-imgs {
+        position: absolute;
+        top: -100px
+    }
+
+    .box-total {
+        padding: 24px 32px 24px 16px;
+    }
+    
+    .box-valued {
+        padding: 24px 32px 24px 16px;
+    }
+    
+    .box-savings {
+        padding: 24px 32px 24px 16px;
+    }
+
+    .powder-info{
+        width: 100%;
+    }
+
+    .powder-img{
+        width: 100%
+    }
+
+    .powder-img2{
+        width: 100%
+    }
+
+    .powder-info{
+        width: 100%
+    }
+
+    .px_3_sm{
+        padding-inline: 1rem;
+    }
+
+    .btn_yellow {
+        font-size: 22px;
+        padding: 12px 24px;
+    }
+
 }
